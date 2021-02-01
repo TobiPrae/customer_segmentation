@@ -19,7 +19,17 @@
 
 #### 1. PCA Analysis
 
-##### a. Principal component 1:
+##### a) PC1:
+
+High positive influence on principal component 1:
+- MOBI_REGIO
+- LP_LEBENSPHASE_GROB
+- KBA05_ANHANG
+
+High negative influence on principal component 1:
+- HH_EINKOMMEN_SCORE
+- PLZ8_ANTG1
+- OST_WEST_KZ
 
 
 
