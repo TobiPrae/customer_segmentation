@@ -30,7 +30,7 @@
 
 ##### Part 2: 
 
-...
+- https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
 
 ##### Part 3: 
 
