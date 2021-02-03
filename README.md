@@ -32,7 +32,7 @@
 
 - https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
 - https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc
-
+- https://machinelearningmastery.com/xgboost-for-imbalanced-classification/
 ##### Part 3: 
 
 ...
