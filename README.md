@@ -29,7 +29,6 @@
 - https://towardsdatascience.com/10-tips-for-choosing-the-optimal-number-of-clusters-277e93d72d92
 
 ##### Part 2: Supervised Learning Problem
-
 - https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
 - https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc
 - https://machinelearningmastery.com/xgboost-for-imbalanced-classification/
