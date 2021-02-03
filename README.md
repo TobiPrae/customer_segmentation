@@ -31,6 +31,7 @@
 ##### Part 2: 
 
 - https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+- https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc
 
 ##### Part 3: 
 
