@@ -17,7 +17,27 @@ https://tobias-praetori91.medium.com/customer-segmentation-using-machine-learnin
 
 *Please note that I used Google Colab since I had some problems with the Workspace provided by udacity. Therefore, there are some lines of code that are not needed if you want to try the code locally.
 
-### II Results:
+## II Libaries:
+
+The following libraries were used during the project:
+
+- `numpy`
+- `pandas`
+- `time`
+- `matplotlib`
+- `seaborn`
+- `textwrap`
+- `imblearn`
+- `sklearn`
+- `xgboost`
+- `pickle`
+
+Google colab specific:
+- `pydrive.auth`
+- `google.colab`
+- `oauth2client.client`
+
+### III Results:
 
 During the unsupervised part, I identified 13 clusters, 3 of which were disproportionately represented in the customer data. All clusters had in common that they contained mostly elderly and affluent individuals.
 
@@ -25,7 +45,7 @@ For the supervised part, I tested several algorithms, but XGBoost turned out to 
 
 I think there are several approaches to how the ROC AUC score could be further improved. Among others, I believe that further feature engineering could lead to significant improvements. With additional hyperparameter tuning, one could probably achieve some (smaller) improvements. If in the future an algorithm is established that is even better than XGBoost, it would probably be possible to achieve even better scores.
 
-### III Sources:
+### IV Sources:
 
 ##### Part 1: Customer Segmentation Report
 - https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a
@@ -40,6 +60,6 @@ I think there are several approaches to how the ROC AUC score could be further i
 - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 - https://www.analyticsvidhya.com/blog/2017/03/imbalanced-data-classification/
 
-### IV Acknoledgments:
+### V Acknoledgments:
 
 I would like to thank Udacity, Kaggle and Arvato for providing this great data set.
