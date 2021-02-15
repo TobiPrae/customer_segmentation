@@ -1,10 +1,13 @@
 # customer_segmentation
 
-### I Introduction & Methodology:
+### I Introduction & Motivation:
 
 Hello all,
+in this repository is the code for my final project of the Data Science Nanodegree's from Udacity. The task was to cluster demographic data and compare it with customer data. In addition, predictions were to be made as to whether people are suitable as customers or not. There were several projects available (e.g. Image Recognition to identify dog breeds), but I chose this project because it had the most practical relevance for me. In addition, the unsupervised learning part appealed to me, since I had no experience in this area before.
 
-in this repository is the code for my final project of the Data Science Nanodegree's from Udacity. The project is roughly divided into 3 parts: data cleaning, unsupervised leanring and supervised learning.
+### II Methodology:
+
+The project is roughly divided into 3 parts: data cleaning, unsupervised leanring and supervised learning.
 
 During the data cleaning part I analyze the provided data (unfortunately I am not allowed to share it) and do feature engineering accordingly. That means I impute nan values and drop certain features based on different criteria.
 
@@ -17,7 +20,7 @@ https://tobias-praetori91.medium.com/customer-segmentation-using-machine-learnin
 
 *Please note that I used Google Colab since I had some problems with the Workspace provided by udacity. Therefore, there are some lines of code that are not needed if you want to try the code locally.
 
-## II Libaries:
+## III Libaries:
 
 The following libraries were used during the project:
 
@@ -37,7 +40,16 @@ Google colab specific:
 - `google.colab`
 - `oauth2client.client`
 
-### III Results:
+### IV Files:
+
+| Name                          | Description                                        |
+| ----------------------------- |----------------------------------------------------|
+| CustomerSegmentation.ipynb    | Contains all the code I used for all three parts   |
+| LICENSE                       | MIT License                                        |
+| README.md                     | This README file                                   |
+| meta_data.xlsx                | Contains meta data about the data sets             |
+
+### V Results:
 
 During the unsupervised part, I identified 13 clusters, 3 of which were disproportionately represented in the customer data. All clusters had in common that they contained mostly elderly and affluent individuals.
 
@@ -45,7 +57,7 @@ For the supervised part, I tested several algorithms, but XGBoost turned out to 
 
 I think there are several approaches to how the ROC AUC score could be further improved. Among others, I believe that further feature engineering could lead to significant improvements. With additional hyperparameter tuning, one could probably achieve some (smaller) improvements. If in the future an algorithm is established that is even better than XGBoost, it would probably be possible to achieve even better scores.
 
-### IV Sources:
+### VI Sources:
 
 ##### Part 1: Customer Segmentation Report
 - https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a
@@ -60,6 +72,6 @@ I think there are several approaches to how the ROC AUC score could be further i
 - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 - https://www.analyticsvidhya.com/blog/2017/03/imbalanced-data-classification/
 
-### V Acknoledgments:
+### VII Acknoledgments:
 
 I would like to thank Udacity, Kaggle and Arvato for providing this great data set.
