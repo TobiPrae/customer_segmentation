@@ -15,10 +15,8 @@ In the unsupervised part, I scale the features and apply PCA to reduce the dimen
 
 In the supervised part, I use a similar data set to predict whether a person can be acquired as a customer. I test different algorithms (RandomForest, AdaBoost and XGBoost). Based on the best algorithm, I do hyperparameter tuning to optimize the model. The score used is ROC AUC, which is particularly well suited for binary classification problems.
 
-To see in detail what I did, please check the Jupyter Notebook* or my Medium post on this topic:
+To see in detail what I did, please check the Jupyter Notebook or my Medium post on this topic:
 https://tobias-praetori91.medium.com/customer-segmentation-using-machine-learning-1593f107e6d6
-
-*Please note that I used Google Colab since I had some problems with the Workspace provided by udacity. Therefore, there are some lines of code that are not needed if you want to try the code locally.
 
 ## III Libaries:
 
